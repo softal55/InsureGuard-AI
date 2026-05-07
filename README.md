@@ -37,10 +37,10 @@ Claim Fields (UI)
 │  2. Impute missing fields (defaults)    │
 │  3. Drift detection  (3σ from train)    │
 │  4. Feature encoding  (get_dummies)     │
-│  5. XGBoost  predict_proba             │
+│  5. XGBoost  predict_proba              │
 │  6. SHAP  TreeExplainer                 │
 │  7. Enrich  (confidence, latency, meta) │
-│  8. Log  → predictions.jsonl           │
+│  8. Log  → predictions.jsonl            │
 └────────────────────┬────────────────────┘
                      │
                      ▼
