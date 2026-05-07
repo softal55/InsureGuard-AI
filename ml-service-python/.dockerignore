@@ -1,0 +1,11 @@
+__pycache__
+*.py[cod]
+*.egg-info
+.venv
+venv
+.git
+.gitignore
+.pytest_cache
+tests/
+requirements-dev.txt
+logs/*.jsonl

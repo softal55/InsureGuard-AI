@@ -1,0 +1,17 @@
+**/.pytest_cache/
+**/bin/
+**/obj/
+__pycache__/
+*.py[cod]
+.venv/
+.env
+logs/*.jsonl
+
+# Large local data / outputs (keep data/ with .gitkeep only)
+data-pipeline/data/*
+!data-pipeline/data/.gitkeep
+
+# Legacy duplicate blobs if an older train run left them in data-pipeline/ (artifacts now go to ml-service-python/ only)
+data-pipeline/*.pkl
+data-pipeline/*.parquet
+data-pipeline/training_stats.json

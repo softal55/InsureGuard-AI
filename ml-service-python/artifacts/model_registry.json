@@ -1,0 +1,13 @@
+{
+  "modelVersion": "2026-05-06-xgb-shap-v3",
+  "trainedAt": "2026-05-06T18:00:00Z",
+  "dataset": "Insurance Fraud Detection v2",
+  "rows": 1671,
+  "features": 142,
+  "splitStrategy": "time",
+  "metrics": {
+    "accuracy": 0.91,
+    "precision": 0.88,
+    "recall": 0.85
+  }
+}
