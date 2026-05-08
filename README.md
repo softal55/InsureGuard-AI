@@ -56,6 +56,8 @@ Claim Fields (UI)
 | <img src="https://raw.githubusercontent.com/softal55/InsureGuard-AI/main/assets/screenshots/input.png" width="200" alt="Claim Input Form"/> | <img src="https://raw.githubusercontent.com/softal55/InsureGuard-AI/main/assets/screenshots/dashboard.png" width="200" alt="Risk Dashboard"/> | <img src="https://raw.githubusercontent.com/softal55/InsureGuard-AI/main/assets/screenshots/shap.png" width="200" alt="SHAP Explanations"/> | <img src="https://raw.githubusercontent.com/softal55/InsureGuard-AI/main/assets/screenshots/batch.png" width="200" alt="Batch Results"/> | <img src="https://raw.githubusercontent.com/softal55/InsureGuard-AI/main/assets/screenshots/health.png" width="200" alt="Health Monitor"/> |
 | Claim fields entry form before scoring | Fraud probability gauge, risk band, and confidence score | Top contributing factors with SHAP probability-scale impacts | `POST /predict/batch` result (e.g. Swagger UI at `/docs`) | Browser view of `GET /health` |
 
+**Images on GitHub:** Uses `raw.githubusercontent.com/.../main/assets/screenshots/` (same file as the `blob/...?raw=1` browser view). They render after the PNGs are on the **`main`** branch. **Local preview:** use relative paths (`assets/screenshots/...`) in a branch if you don’t want the IDE to fetch from GitHub.
+
 ---
 
 ## Key features
