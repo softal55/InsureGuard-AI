@@ -51,23 +51,10 @@ Claim Fields (UI)
 
 ## Screenshots
 
-| Risk Dashboard | SHAP Explanations | Batch Results | Health Monitor |
-|:---:|:---:|:---:|:---:|
-| <img src="assets/screenshots/dashboard.png" width="200" alt="Risk Dashboard"/> | <img src="assets/screenshots/shap.png" width="200" alt="SHAP Explanations"/> | <img src="assets/screenshots/batch.png" width="200" alt="Batch Results"/> | <img src="assets/screenshots/health.png" width="200" alt="Health Monitor"/> |
-| Fraud probability gauge, risk band, and confidence score | Top contributing factors with SHAP probability-scale impacts | `POST /predict/batch` result (e.g. Swagger UI at `/docs`) | Sidebar **Check API health** or browser view of `GET /health` |
-
-**Add these files** (use **exact filenames** — `.png` as below so the `<img>` tags work):
-
-| File | What to capture |
-|------|-----------------|
-| `assets/screenshots/dashboard.png` | Streamlit after **Run analysis** — metrics row + gauge (and/or hero). |
-| `assets/screenshots/shap.png` | Same session: **Explainability** tabs — factor impact or waterfall. |
-| `assets/screenshots/batch.png` | FastAPI **Swagger** `POST /predict/batch` “Execute” with a small `rows` array, screenshot JSON **responses**. |
-| `assets/screenshots/health.png` | Streamlit sidebar showing green health + model line, **or** formatted `http://localhost:8000/health`. |
-
-1. Start the stack: `docker compose up --build`, or run `uvicorn` + `streamlit` locally.  
-2. Capture on a clean zoom (~100% browser), crop to the useful region, export **PNG** (readable on GitHub dark/light).  
-3. Commit the four files under `assets/screenshots/` — README paths are **relative** and work on GitHub when pushed.
+| Input | Risk Dashboard | SHAP Explanations | Batch Results | Health Monitor |
+|:---:|:---:|:---:|:---:|:---:|
+| <img src="https://raw.githubusercontent.com/softal55/InsureGuard-AI/main/assets/screenshots/input.png" width="200" alt="Claim Input Form"/> | <img src="https://raw.githubusercontent.com/softal55/InsureGuard-AI/main/assets/screenshots/dashboard.png" width="200" alt="Risk Dashboard"/> | <img src="https://raw.githubusercontent.com/softal55/InsureGuard-AI/main/assets/screenshots/shap.png" width="200" alt="SHAP Explanations"/> | <img src="https://raw.githubusercontent.com/softal55/InsureGuard-AI/main/assets/screenshots/batch.png" width="200" alt="Batch Results"/> | <img src="https://raw.githubusercontent.com/softal55/InsureGuard-AI/main/assets/screenshots/health.png" width="200" alt="Health Monitor"/> |
+| Claim fields entry form before scoring | Fraud probability gauge, risk band, and confidence score | Top contributing factors with SHAP probability-scale impacts | `POST /predict/batch` result (e.g. Swagger UI at `/docs`) | Browser view of `GET /health` |
 
 ---
 
