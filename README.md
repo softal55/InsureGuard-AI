@@ -1,7 +1,7 @@
 <div align="center">
 
-<!-- Replace with your repo: add `assets/logo.png` or point the src to a hosted image -->
-<img src="https://raw.githubusercontent.com/yourusername/InsureGuard-AI/main/assets/logo.png" alt="InsureGuard AI Logo" width="96"/>
+
+<img src="https://raw.githubusercontent.com/softal55/InsureGuard-AI/main/assets/logo.png" alt="InsureGuard AI Logo" width="96"/>
 
 # InsureGuard AI
 
